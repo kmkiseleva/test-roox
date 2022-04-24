@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-roox/static/css/main.b1c99445.css",
+    "main.js": "/test-roox/static/js/main.5033ef55.js",
+    "static/js/787.b14a7762.chunk.js": "/test-roox/static/js/787.b14a7762.chunk.js",
+    "index.html": "/test-roox/index.html",
+    "main.b1c99445.css.map": "/test-roox/static/css/main.b1c99445.css.map",
+    "main.5033ef55.js.map": "/test-roox/static/js/main.5033ef55.js.map",
+    "787.b14a7762.chunk.js.map": "/test-roox/static/js/787.b14a7762.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1c99445.css",
+    "static/js/main.5033ef55.js"
+  ]
+}
