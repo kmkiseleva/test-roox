@@ -15,6 +15,7 @@ const initialState: InitialState = {
 };
 
 export const fetchUsers = () => async (dispatch: any, getState: any) => {
+  dispatch(fetchStart(initialState));
   try {
     axios.get(`https://jsonplaceholder.typicode.com/users`)
     .then(res => {

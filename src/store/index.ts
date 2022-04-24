@@ -1,12 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import usersSlice from './fetchUsers';
-import contactsSlice from "./contactsReducer";
 
 
 const store = configureStore({
   reducer: {
-    usersSlice,
-    contactsSlice
+    usersSlice
   },
 });
 

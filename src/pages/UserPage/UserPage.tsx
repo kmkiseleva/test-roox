@@ -17,7 +17,7 @@ const UserPage = () => {
     handleSubmit,
     formState: { errors, isValid },
   } = useForm({
-    mode: "onChange",
+    mode: "onBlur",
     defaultValues: {
       name: currentUser.name,
       username: currentUser.username,
@@ -79,6 +79,7 @@ const UserPage = () => {
                   disabled={readonly}
                   {...register("email", {
                     required: true,
+                    pattern: /^\S+@\S+\.\S+$/,
                   })}
                   style={{
                     border: errors?.email ? "1px solid red" : "",
