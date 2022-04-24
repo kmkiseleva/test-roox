@@ -44,5 +44,5 @@
 
 - redux / redux-toolkit (стейт-менеджер);
 - TypeScript (типизация);
-- sass (стилизация);
+- scss (стилизация);
 - react-hook-form (работа с формами);
