@@ -1,0 +1,35 @@
+.card-container {
+  width: 420px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  p {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    color: #a3a3a3;
+
+    span {
+      font-size: 11px;
+      line-height: 13px;
+      color: #000000;
+      margin-left: 5px;
+    }
+  }
+
+  button {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4b51ef;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: 7px;
+  }
+}
